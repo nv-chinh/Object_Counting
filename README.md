@@ -92,30 +92,42 @@ Below are example visualizations showing the original image alongside the predic
 ### 🧍‍♂️ Crowd Counting – ShanghaiTechB Dataset
 
 <p align="center">
-  <img src="examples/shb_vis_1.jpg" width="48%" />
-  <img src="examples/shb_vis_2.jpg" width="48%" />
+  <img src="testing_examples/shb_test_1.jpg" width="22%" />
+  <img src="testing_examples/shb_test_1_ovl.jpg" width="22%" />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="testing_examples/shb_test_2.jpg" width="22%" />
+  <img src="testing_examples/shb_test_2_ovl.jpg" width="22%" />
 </p>
 
 ### 🐮 Cow Counting Dataset
 
 <p align="center">
-  <img src="examples/cow_vis_1.jpg" width="48%" />
-  <img src="examples/cow_vis_2.jpg" width="48%" />
+  <img src="testing_examples/cow_test_1.jpg" width="22%" />
+  <img src="testing_examples/cow_test_1_ovl.jpg" width="22%" />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="testing_examples/cow_test_2.jpg" width="22%" />
+  <img src="testing_examples/cow_test_2_ovl.jpg" width="22%" />
 </p>
 
 ### 🌳 Tree Counting Dataset
 
 <p align="center">
-  <img src="examples/tree_vis_1.jpg" width="48%" />
-  <img src="examples/tree_vis_2.jpg" width="48%" />
+  <img src="testing_examples/tree_test_1.jpg" width="22%" />
+  <img src="testing_examples/tree_test_1_ovl.jpg" width="22%" />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="testing_examples/tree_test_2.jpg" width="22%" />
+  <img src="testing_examples/tree_test_2_ovl.jpg" width="22%" />
 </p>
 
 ### 🦐 Shrimp Counting Dataset
 
 <p align="center">
-  <img src="examples/shrimp_vis_1.jpg" width="48%" />
-  <img src="examples/shrimp_vis_2.jpg" width="48%" />
+  <img src="testing_examples/shrimp_test_1.jpg" width="22%" />
+  <img src="testing_examples/shrimp_test_1_ovl.jpg" width="22%" />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="testing_examples/shrimp_test_2.jpg" width="22%" />
+  <img src="testing_examples/shrimp_test_2_ovl.jpg" width="22%" />
 </p>
 
-> 📌 *Each example shows: Left – Original image, Right – Model overlay with density estimation.*
+> 📌 *Each example shows: Left – Original Image, Right – Result Image with density estimation.*
 
