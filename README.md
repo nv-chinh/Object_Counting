@@ -28,7 +28,7 @@ This project presents a cutting-edge object counting approach that integrates th
 
 We evaluate our CLIP-EBC approach on several challenging object counting benchmarks to demonstrate its robustness and generalization:
 
-### 🧍‍♂️ Crowd Counting – ShanghaiTech B Dataset:
+### 🧍‍♂️ Crowd Counting – ShanghaiTechB Dataset:
 
 A crowd counting benchmark featuring pedestrian scenes in urban streets.
 <p align="center">
