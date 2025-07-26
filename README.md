@@ -29,26 +29,93 @@ This project presents a cutting-edge object counting approach that integrates th
 We evaluate our CLIP-EBC approach on several challenging object counting benchmarks to demonstrate its robustness and generalization:
 
 ### 🧍‍♂️ Crowd Counting – ShanghaiTech B Dataset:
+
 A crowd counting benchmark featuring pedestrian scenes in urban streets.
 <p align="center">
-  <img src="examples/shb_1.jpg" width="20%" />
-  <img src="examples/shb_2.jpg" width="20%" />
+  <img src="examples/shb_1.jpg" width="22%" />
+  <img src="examples/shb_2.jpg" width="22%" />
+  <img src="examples/shb_3.jpg" width="22%" />
+  <img src="examples/shb_4.jpg" width="22%" />
 </p>
 
-### 🐮 Animal Counting – [Cow Counting Dataset](https://github.com/TrentBrown/CowCounting)
+### 🐮 Cow Counting Dataset
 
-- **Scenario**: Real-world farm surveillance with sparse and medium-density cow clusters under variable lighting and backgrounds.
-- **Results**: CLIP-EBC achieves high counting accuracy and demonstrates strong generalization without needing dataset-specific tuning, thanks to CLIP's semantic alignment.
-- **Prompt Used**: `"a photo of a cow"`
+Counting cows in outdoor farm environments.
+<p align="center">
+  <img src="examples/cow_1.jpg" width="22%" height="60%"/>
+  <img src="examples/cow_2.jpg" width="22%" height="60%"/>
+  <img src="examples/cow_3.jpg" width="22%" height="60%"/>
+  <img src="examples/cow_4.jpg" width="22%" height="60%"/>
+</p>
 
-### 🌳 Tree Counting – [DeepTreeCount Dataset](https://github.com/AdeelMufti/DeepTreeCount)
+### 🌳 Tree Counting Dataset
 
-- **Scenario**: Aerial images of forest regions with partially occluded or overlapping trees.
-- **Results**: The model accurately counts both isolated and dense tree regions. The EBC structure handles varied spatial distributions with ease.
-- **Prompt Used**: `"a top view of a tree"`
+Counting oil palm trees from aerial forest imagery.
+<p align="center">
+  <img src="examples/tree_1.jpg" width="22%" />
+  <img src="examples/tree_2.jpg" width="22%" />
+  <img src="examples/tree_3.jpg" width="22%" />
+  <img src="examples/tree_4.jpg" width="22%" />
+</p>
 
-### 🦐 Shrimp Counting – [Shrimp Dataset (internal)]()
+### 🦐 Shrimp Counting Dataset
 
-- **Scenario**: Microscopic or underwater imagery with small-scale, clustered objects.
-- **Results**: CLIP-EBC effectively suppresses noise and background artifacts, aided by EBC’s blockwise density learning and CLIP’s fine-grained semantics.
-- **Prompt Used**: `"a shrimp underwater"`
+Counting shrimp in aquaculture farming environment
+<p align="center">
+  <img src="examples/shrimp_1.jpg" width="22%" />
+  <img src="examples/shrimp_2.jpg" width="22%" />
+  <img src="examples/shrimp_3.jpg" width="22%" />
+  <img src="examples/shrimp_4.jpg" width="22%" />
+</p>
+
+## 📊 Quantitative Results
+
+We evaluate the CLIP-EBC model using standard metrics: **MAE** (Mean Absolute Error), **RMSE** (Root Mean Squared Error), and **Accuracy** on the four datasets above
+### 📐 Metric Definitions:
+- **MAE (Mean Absolute Error)**: Measures the average absolute difference between prediction and groundtruth.
+- **RMSE (Root Mean Squared Error)**: Similar to MAE but penalizes larger errors more heavily.
+- **Accuracy**: Measures how close the predicted count is to the ground truth.
+  
+| Dataset                 | MAE ↓ | RMSE ↓ | Accuracy ↑ |
+|-------------------------|-------|--------|------------|
+| ShanghaiTechB           | 8.1   | 13.2   | 93.4%      |
+| Cow Counting            | 2.6   | 3.9    | 95.8%      |
+| Tree Counting           | 10.2  | 66.1   | 89.3%      |
+| Shrimp Counting         | 1.5   | 2.4    | 93.3%      |
+
+> *Note: All experiments use CLIP-ResNet50 as the backbone for the pipeline.
+
+## 🎨 Visualizations
+
+Below are example visualizations showing the original image alongside the predicted density overlay for each dataset.
+
+### 🧍‍♂️ Crowd Counting – ShanghaiTechB Dataset
+
+<p align="center">
+  <img src="examples/shb_vis_1.jpg" width="48%" />
+  <img src="examples/shb_vis_2.jpg" width="48%" />
+</p>
+
+### 🐮 Cow Counting Dataset
+
+<p align="center">
+  <img src="examples/cow_vis_1.jpg" width="48%" />
+  <img src="examples/cow_vis_2.jpg" width="48%" />
+</p>
+
+### 🌳 Tree Counting Dataset
+
+<p align="center">
+  <img src="examples/tree_vis_1.jpg" width="48%" />
+  <img src="examples/tree_vis_2.jpg" width="48%" />
+</p>
+
+### 🦐 Shrimp Counting Dataset
+
+<p align="center">
+  <img src="examples/shrimp_vis_1.jpg" width="48%" />
+  <img src="examples/shrimp_vis_2.jpg" width="48%" />
+</p>
+
+> 📌 *Each example shows: Left – Original image, Right – Model overlay with density estimation.*
+
