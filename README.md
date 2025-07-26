@@ -1,6 +1,6 @@
 # Object Counting with CLIP-EBC
 
-This project is based on the paper: **[CLIP-EBC: CLIP-Guided Efficient Box-Free Object Counting](https://arxiv.org/abs/2308.13741)** (ICCV 2023)
+This project is based on the paper: **[CLIP-EBC: CLIP-Guided Efficient Box-Free Object Counting](https://arxiv.org/abs/2403.09281)** (ICCV 2023)
 
 ---
 
