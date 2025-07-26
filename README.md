@@ -99,6 +99,14 @@ Below are some examples in testing results for each dataset:
   <img src="testing_examples/shb_test_2_ovl.jpg" width="22%" />
 </p>
 
+<p align="center">
+  <img src="testing_examples/shb_test_3.jpg" width="22%" />
+  <img src="testing_examples/shb_test_3_ovl.jpg" width="22%" />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="testing_examples/shb_test_4.jpg" width="22%" />
+  <img src="testing_examples/shb_test_4_ovl.jpg" width="22%" />
+</p>
+
 ### 🐮 Cow Counting Dataset
 
 <p align="center">
@@ -107,6 +115,14 @@ Below are some examples in testing results for each dataset:
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="testing_examples/cow_test_2.jpg" width="22%" />
   <img src="testing_examples/cow_test_2_ovl.jpg" width="22%" />
+</p>
+
+<p align="center">
+  <img src="testing_examples/cow_test_3.jpg" width="22%" />
+  <img src="testing_examples/cow_test_3_ovl.jpg" width="22%" />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="testing_examples/cow_test_4.jpg" width="22%" />
+  <img src="testing_examples/cow_test_4_ovl.jpg" width="22%" />
 </p>
 
 ### 🌳 Tree Counting Dataset
@@ -119,6 +135,14 @@ Below are some examples in testing results for each dataset:
   <img src="testing_examples/tree_test_2_ovl.jpg" width="22%" />
 </p>
 
+<p align="center">
+  <img src="testing_examples/tree_test_3.jpg" width="22%" />
+  <img src="testing_examples/tree_test_3_ovl.jpg" width="22%" />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="testing_examples/tree_test_4.jpg" width="22%" />
+  <img src="testing_examples/tree_test_4_ovl.jpg" width="22%" />
+</p>
+
 ### 🦐 Shrimp Counting Dataset
 
 <p align="center">
@@ -127,6 +151,14 @@ Below are some examples in testing results for each dataset:
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="testing_examples/shrimp_test_2.jpg" width="22%" />
   <img src="testing_examples/shrimp_test_2_ovl.jpg" width="22%" />
+</p>
+
+<p align="center">
+  <img src="testing_examples/shrimp_test_3.jpg" width="22%" />
+  <img src="testing_examples/shrimp_test_3_ovl.jpg" width="22%" />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="testing_examples/shrimp_test_4.jpg" width="22%" />
+  <img src="testing_examples/shrimp_test_4_ovl.jpg" width="22%" />
 </p>
 
 > 📌 *Each example shows: Left – Original Image, Right – Result Image with density estimation.*
