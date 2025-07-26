@@ -87,7 +87,7 @@ We evaluate the CLIP-EBC model using standard metrics: **MAE** (Mean Absolute Er
 
 ## 🎨 Visualizations
 
-Below are example visualizations showing the original image alongside the predicted density overlay for each dataset.
+Below are some examples in testing results for each dataset:
 
 ### 🧍‍♂️ Crowd Counting – ShanghaiTechB Dataset
 
