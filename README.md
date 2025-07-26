@@ -28,11 +28,12 @@ This project presents a cutting-edge object counting approach that integrates th
 
 We evaluate our CLIP-EBC approach on several challenging object counting benchmarks to demonstrate its robustness and generalization:
 
-### 🧍‍♂️ Crowd Counting – [ShanghaiTech Part A & B](https://github.com/desenzhou/ShanghaiTechDataset)
-
-- **Scenario**: High-density crowd scenes with severe occlusion and scale variation.
-- **Results**: CLIP-EBC shows consistent improvements in MAE and RMSE compared to prior box-free approaches, with especially notable accuracy in extremely dense environments.
-- **Visualization**: The generated heatmaps effectively highlight dense regions, providing interpretable evidence of the model’s counting rationale.
+### 🧍‍♂️ Crowd Counting – ShanghaiTech B Dataset:
+A crowd counting benchmark featuring pedestrian scenes in urban streets.
+<p align="center">
+  <img src="examples/shb_1.jpg" width="20%" />
+  <img src="examples/shb_2.jpg" width="20%" />
+</p>
 
 ### 🐮 Animal Counting – [Cow Counting Dataset](https://github.com/TrentBrown/CowCounting)
 
