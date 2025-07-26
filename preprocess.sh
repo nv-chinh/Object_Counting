@@ -1,0 +1,1 @@
+python preprocess.py --src_dir /home/chinhbrian/CLIP-EBC/Clean_Code/Cow_Counting_Dataset    --dst_dir ./datasets/cow --min_size 448 --max_size 2048
