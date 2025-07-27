@@ -80,7 +80,7 @@ We evaluate the CLIP-EBC model using standard metrics: **MAE** (Mean Absolute Er
 |-------------------------|-------|--------|------------|
 | ShanghaiTechB           | 8.1   | 13.2   | 93.4%      |
 | Cow Counting            | 2.6   | 3.9    | 95.8%      |
-| Tree Counting           | 10.2  | 66.1   | 89.3%      |
+| Tree Counting           | 5.2   | 8.3    | 94.4%      |
 | Shrimp Counting         | 1.5   | 2.4    | 93.3%      |
 
 > *Note: All experiments use CLIP-ResNet50 as the backbone for the pipeline.
